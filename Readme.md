@@ -1,8 +1,29 @@
-# AutoMLSum 🤖🚀
+# AnaData 🤖🚀
 
 _Where you can automate Machine Learning_
 
 A open-source python package to automate `Machine Learning` Procress.
+
+## App Cycle
+
+![img](./images/AnaData.png)
+
+## ToDo
+
+- [ ] WebApp Setup
+- [ ] Uploading Phase
+  - [ ] Dataset
+  - [ ] Model
+- [ ] Analysis Phase
+  - [ ] Dataset
+  - [ ] Model
+- [ ] Modelling Phase
+- [ ] Download Phase
+
+## Requirements
+
+- Python >= 3.9
+- Packages with Same Version ( as mentioned in requirements.txt )
 
 ### Installation
 
@@ -23,3 +44,5 @@ pip install -r requirements.txt
 ```
 streamlit run main.py
 ```
+
+**This Repo is still in Developement Phase!!!**
