@@ -5,7 +5,8 @@ import os
 
 def clear_session():
     path = os.path.join('dataset.csv')
-    os.remove(path)
+    with open(path, "w") as f:
+        f.close()
 
 def upload():
     st.header("Upload Phase")
@@ -27,7 +28,11 @@ def upload():
 class Anadata:
 
     def __init__(self):
-        self.df = pd.read_csv('dataset.csv', index_col=None)
+        try:
+            self.df = pd.read_csv('dataset.csv', index_col=None)
+            self.analyze()
+        except pd.errors.EmptyDataError as e:
+            pass
 
     def extractInformation(self):
         pass
@@ -35,6 +40,3 @@ class Anadata:
     def analyze(self):
         st.header("DataFrame of Uploaded File")
         st.dataframe(self.df)
-
-    def run(self):
-        self.analyze()

@@ -1,12 +1,12 @@
 # AnaData 🤖🚀
 
-_Where you can automate Machine Learning_
+_Where you can Visualize Datasets_
 
-A open-source python package to automate `Machine Learning` Procress.
+A open-source Webapp to Analyze and Visualize Data
 
-## App Cycle
+## WebApp
 
-![img](./images/AnaData.png)
+![img](./images/AnaData_2.png)
 
 ## Requirements
 

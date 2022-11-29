@@ -16,6 +16,6 @@ if __name__ == "__main__":
     upload()
     if not choice:
         app = Anadata()
-        app.run()
+        # app.run()
     if choice:
         clear_session()
