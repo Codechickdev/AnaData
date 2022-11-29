@@ -130,3 +130,6 @@ dmypy.json
 
 # Sample Directory For Production
 sample
+
+# Data
+dataset.csv

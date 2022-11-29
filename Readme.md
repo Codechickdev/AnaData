@@ -8,18 +8,6 @@ A open-source python package to automate `Machine Learning` Procress.
 
 ![img](./images/AnaData.png)
 
-## ToDo
-
-- [ ] WebApp Setup
-- [ ] Uploading Phase
-  - [ ] Dataset
-  - [ ] Model
-- [ ] Analysis Phase
-  - [ ] Dataset
-  - [ ] Model
-- [ ] Modelling Phase
-- [ ] Download Phase
-
 ## Requirements
 
 - Python >= 3.9
