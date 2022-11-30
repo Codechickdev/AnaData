@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("Hi 👋, This is AnaData")
 st.markdown(
     """
-    AnaData is an Open Source Webapp to automate Machine Learning Workflow (Still under developement)
+    AnaData is an Open Source Webapp to automate Data Preprocessing Workflow (Still under developement)
     **👈 Select a page from Sidebar and see what Anadata can do**
 
     ### Have any Questions ?
